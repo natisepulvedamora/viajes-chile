@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(39, 39, 39) !important;
+    font-family: 'Poppins', sans-serif !important;
+    color:whitesmoke !important;
+    font-weight: 200;
+}
+
+.navbar{
+    /* para fijar el nav sobre el carrusel */
+    z-index:100 !important; 
+    position: fixed !important;
+    border-width: 2px !important;
+}
+.navbar a{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500;
+    color:whitesmoke;
+}
+
+
+
+.hero-title h1{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500;
+    color:whitesmoke !important;
+    /* z-index:80 !important; 
+    position: fixed !important; */
+    position: absolute !important;
+    top: 40px !important; left: 40px !important;
+}
+
+.div-iconos{
+    background-color: #3ea1aa !important;
+    font-size: 2em;
+} 
+
+.div-cards{
+    background-color: #3ea1aa !important;
+}
+
+/* .div-cards img{
+    width: 100%;
+    height: 50%;
+} */
